@@ -1,0 +1,26 @@
+body {
+    background-image: url(../img/トップ画面背景.jpg);
+}
+.example{
+  display: block;
+  width: 200px;
+  background: transparent;
+  border: 2px solid #FFF;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 120%;
+  font-weight: bold;
+}
+a.example {
+  margin: 0 auto;
+}
+.exampleback {
+  position: relative;
+}
+.exampleback a {
+  position: absolute;
+  left: 860px;
+  top: 350px;
+}

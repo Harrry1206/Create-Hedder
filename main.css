@@ -1,0 +1,14 @@
+body {
+    background-image: url(../img/メイン画面背景.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.button {
+    position: relative;
+}
+.button img{
+    position: absolute;
+    left: 1600px;
+    top: 850px;
+}

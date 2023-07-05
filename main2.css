@@ -1,0 +1,44 @@
+body {
+    background-image: url(../img/背景.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.example1{
+    display: block;
+    width: 200px;
+    background: transparent;
+    border: 2px solid #FFF;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 120%;
+    font-weight: bold;
+}
+.example2{
+    display: block;
+    width: 200px;
+    background: transparent;
+    border: 2px solid #FFF;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 120%;
+    font-weight: bold;
+}
+.button {
+    position: relative;
+}
+.button a.example1{
+    position: absolute;
+    left: 720px;
+    top: 650px;
+}
+.button a.example2{
+    position: absolute;
+    left: 1000px;
+    top: 650px;
+}
